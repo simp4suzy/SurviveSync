@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
 
     _controller = AnimationController(
       vsync: this,
-      duration: Duration(milliseconds: 1500),
+      duration: Duration(milliseconds: 2100),
     );
 
 
@@ -79,7 +79,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
         ).chain(
           CurveTween(
             curve: Interval(
-              delayMilliseconds / 1500, // Delay ratio based on total duration
+              delayMilliseconds / 2100, // Delay ratio based on total duration
               1.0,
               curve: Curves.easeInOut,
             ),
