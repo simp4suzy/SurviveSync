@@ -1,4 +1,4 @@
-name: survival_manual
+name: SurviveSync
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -61,7 +61,6 @@ flutter:
     - assets/survive.gif
     - assets/water_purification.gif
     - assets/sur_background.jpg
-    - assets/first_aid_intro.jpg
     - assets/first_aiding.jpg
     - assets/interlockfingers_cpr.jpg
     - assets/chest_compressions.gif
@@ -84,7 +83,6 @@ flutter:
     - assets/heat_exhaustion.gif
     - assets/heat_stroke.gif
     - assets/exhaustion_stroke.jpg
-    - assets/fire_starting_intro.gif
     - assets/straight_stick.jpg
     - assets/flat_wood.jpg
     - assets/bow.jpg
