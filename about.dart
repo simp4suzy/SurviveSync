@@ -102,7 +102,7 @@ class AboutScreen extends StatelessWidget {
                             Icon(Icons.facebook, color: Colors.black),
                             SizedBox(width: 5),
                             Text(
-                              'Facebook: https://www.facebook.com/HeavenlyDemon2119?mibextid=ZbWKwL',
+                              'Facebook: Freinz Napallacan',
                               style: TextStyle(
                                 fontSize: 13.0,
                                 color: Colors.black,
@@ -117,7 +117,7 @@ class AboutScreen extends StatelessWidget {
                             Icon(Icons.camera_alt, color: Colors.black),
                             SizedBox(width: 5),
                             Text(
-                              'Instagram: https://www.instagram.com/freinzfriesss?igsh=YzljYTk1ODg3Zg==',
+                              'Instagram: freinzfriesss',
                               style: TextStyle(
                                 fontSize: 13.0,
                                 color: Colors.black,
