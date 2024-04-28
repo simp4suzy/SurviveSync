@@ -7,7 +7,7 @@ class HelpAndSupport extends StatelessWidget {
     final Uri params = Uri(
       scheme: 'mailto',
       path: 'freinznapallacan19@gmail.com',
-      query: 'subject=Feedback(Feature Requests, Bug Reports, User Experience, Performance, Compatibility Issues and etc.)&body=Dear Support Team,%0D%0A%0D%0AI wanted to share my feedback on the app:%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0AThank you!%0D%0A',
+      query: 'subject=Feedback (Feature Requests, Bug Reports, User Experience, Performance, Compatibility Issues and etc.)&body=Dear Support Team,%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0AThank you and God Bless!%0D%0A',
     );
     String url = params.toString();
     if (await canLaunch(url)) {

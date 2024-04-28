@@ -44,7 +44,7 @@ class AboutScreen extends StatelessWidget {
                             Text(
                               'Version: 2.2.19',
                               style: TextStyle(
-                                fontSize: 16.0,
+                                fontSize: 13.0,
                                 color: Colors.black,
                               ),
                             ),
@@ -59,7 +59,7 @@ class AboutScreen extends StatelessWidget {
                             Text(
                               'Developer: Doffy </>',
                               style: TextStyle(
-                                fontSize: 16.0,
+                                fontSize: 13.0,
                                 color: Colors.black,
                               ),
                             ),
@@ -74,7 +74,7 @@ class AboutScreen extends StatelessWidget {
                             Text(
                               'Contact Number: (038)4272391',
                               style: TextStyle(
-                                fontSize: 16.0,
+                                fontSize: 13.0,
                                 color: Colors.black,
                               ),
                             ),
@@ -89,7 +89,7 @@ class AboutScreen extends StatelessWidget {
                             Text(
                               'Contact Email: freinznapallacan19@gmail.com',
                               style: TextStyle(
-                                fontSize: 16.0,
+                                fontSize: 13.0,
                                 color: Colors.black,
                               ),
                             ),
@@ -104,7 +104,7 @@ class AboutScreen extends StatelessWidget {
                             Text(
                               'Facebook: https://www.facebook.com/HeavenlyDemon2119?mibextid=ZbWKwL',
                               style: TextStyle(
-                                fontSize: 16.0,
+                                fontSize: 13.0,
                                 color: Colors.black,
                               ),
                             ),
@@ -119,7 +119,7 @@ class AboutScreen extends StatelessWidget {
                             Text(
                               'Instagram: https://www.instagram.com/freinzfriesss?igsh=YzljYTk1ODg3Zg==',
                               style: TextStyle(
-                                fontSize: 16.0,
+                                fontSize: 13.0,
                                 color: Colors.black,
                               ),
                             ),

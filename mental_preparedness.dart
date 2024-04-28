@@ -10,7 +10,7 @@ class MentalPreparedness extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/sur_background.jpg'), // Change the path to your image
+            image: AssetImage('assets/sur_background.jpg'), 
             fit: BoxFit.cover,
           ),
         ),

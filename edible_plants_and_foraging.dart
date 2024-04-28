@@ -10,7 +10,7 @@ class EdiblePlantsAndForaging extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/sur_background.jpg'), // Change the path to your image
+            image: AssetImage('assets/sur_background.jpg'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -39,58 +39,60 @@ class EdiblePlantsAndForaging extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/dandelion_leaves.jpg', // Left image
-                        width: 250, // Adjust width as needed
-                        height: 250, // Adjust height as needed
-                      ),
-                      SizedBox(height: 10), // Add space between image and text
-                      Text(
-                        'Leaves of Dandelion (Taraxacum officinale)',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/dandelion_flowers.jpg', // Right image
-                        width: 250, // Adjust width as needed
-                        height: 250, // Adjust height as needed
-                        ),
-                        SizedBox(height: 10), // Add space between image and text
-                        Text(
-                        'Flowers of Dandelion (Taraxacum officinale)',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
-              ),
-              SizedBox(height: 20),
               Center(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
-                      'assets/dandelion_roots.jpg', // GIF before the introduction
-                      width: 250, // Change the width as needed
-                      height: 250, // Change the height as needed
+                      'assets/dandelion_leaves.jpg', 
+                      width: 250, 
+                      height: 250,
                     ),
-                    SizedBox(height: 10), // Add some space between the image and text
+                    SizedBox(height: 10), 
+                    Text(
+                      'Leaves of Dandelion (Taraxacum officinale)',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/dandelion_flowers.jpg', 
+                      width: 250, 
+                      height: 250, 
+                    ),
+                    SizedBox(height: 10), 
+                    Text(
+                      'Flowers of Dandelion (Taraxacum officinale)',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/dandelion_roots.jpg', 
+                      width: 250, 
+                      height: 250,
+                    ),
+                    SizedBox(height: 10), 
                     Text(
                       'Roots of Dandelion (Taraxacum officinale)',
                       textAlign: TextAlign.center,
@@ -118,88 +120,92 @@ class EdiblePlantsAndForaging extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/wild_blackberries.jpg', // Left image
-                        width: 250, // Adjust width as needed
-                        height: 250, // Adjust height as needed
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/wild_blackberries.jpg', 
+                      width: 250, 
+                      height: 250,
+                    ),
+                    SizedBox(height: 10), 
+                    Text(
+                      'Blackberries',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
                       ),
-                      SizedBox(height: 10), // Add space between image and text
-                      Text(
-                        'Blackberries',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/wild_raspberries.jpeg', // Right image
-                        width: 250, // Adjust width as needed
-                        height: 250, // Adjust height as needed
-                      ),
-                      SizedBox(height: 10), // Add space between image and text
-                      Text(
-                        'Raspberries',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
+                    ),
+                  ],
+                ),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/wild_blueberries.jpg', // Left image
-                        width: 250, // Adjust width as needed
-                        height: 250, // Adjust height as needed
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/wild_raspberries.jpeg', 
+                      width: 250, 
+                      height: 250,
+                    ),
+                    SizedBox(height: 10), 
+                    Text(
+                      'Raspberries',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
                       ),
-                      SizedBox(height: 10), // Add space between image and text
-                      Text(
-                        'Blueberries',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/wild_blueberries.jpg', 
+                      width: 250, 
+                      height: 250,
+                    ),
+                    SizedBox(height: 10), 
+                    Text(
+                      'Blueberries',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
                       ),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/wild_strawberries.jpg', // Right image
-                        width: 250, // Adjust width as needed
-                        height: 250, // Adjust height as needed
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/wild_strawberries.jpg', 
+                      width: 250, 
+                      height: 250,
+                    ),
+                    SizedBox(height: 10), 
+                    Text(
+                      'Strawberries',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
                       ),
-                      SizedBox(height: 10), // Add space between image and text
-                      Text(
-                        'Strawberries',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
+                    ),
+                  ],
+                ),
               ),
               SizedBox(height: 20),
               Text(
@@ -212,46 +218,48 @@ class EdiblePlantsAndForaging extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/garlic_leaves.JPG', // Left image
-                        width: 250, // Adjust width as needed
-                        height: 250, // Adjust height as needed
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/garlic_leaves.JPG', 
+                      width: 250, 
+                      height: 250,
+                    ),
+                    SizedBox(height: 10), 
+                    Text(
+                      'Leaves of Wild Garlic (Allium ursinum)',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
                       ),
-                      SizedBox(height: 10), // Add space between image and text
-                      Text(
-                        'Leaves of Wild Garlic (Allium ursinum)',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/garlic_bulbs.jpg', 
+                      width: 250, 
+                      height: 250,
+                    ),
+                    SizedBox(height: 10), 
+                    Text(
+                      'Bulbs of Wild Garlic (Allium ursinum)',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
                       ),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/garlic_bulbs.jpg', // Right image
-                        width: 250, // Adjust width as needed
-                        height: 250, // Adjust height as needed
-                      ),
-                      SizedBox(height: 10), // Add space between image and text
-                      Text(
-                        'Bulbs of Wild Garlic (Allium ursinum)',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
+                    ),
+                  ],
+                ),
               ),
               SizedBox(height: 10),
               Text(
@@ -274,11 +282,11 @@ class EdiblePlantsAndForaging extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
-                      'assets/stinging_nettle_leaves.jpg', // GIF before the introduction
-                      width: 250, // Change the width as needed
-                      height: 250, // Change the height as needed
+                      'assets/stinging_nettle_leaves.jpg', 
+                      width: 250, 
+                      height: 250, 
                     ),
-                    SizedBox(height: 10), // Add some space between the image and text
+                    SizedBox(height: 10), 
                     Text(
                       'Leaves of Stinging Nettle (Urtica dioica)',
                       textAlign: TextAlign.center,
@@ -311,11 +319,11 @@ class EdiblePlantsAndForaging extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
-                      'assets/plantain_leaves.jpg', // GIF before the introduction
-                      width: 250, // Change the width as needed
-                      height: 250, // Change the height as needed
+                      'assets/plantain_leaves.jpg', 
+                      width: 250, 
+                      height: 250, 
                     ),
-                    SizedBox(height: 10), // Add some space between the image and text
+                    SizedBox(height: 10), 
                     Text(
                       'Leaves of Plantain (Plantago major)',
                       textAlign: TextAlign.center,

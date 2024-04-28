@@ -10,7 +10,7 @@ class KnotTying extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/sur_background.jpg'), // Change the path to your image
+            image: AssetImage('assets/sur_background.jpg'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -67,8 +67,8 @@ class KnotTying extends StatelessWidget {
               Center(
                 child: Image.asset(
                   'assets/square_knot.jpg',
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  width: 300, 
+                  height: 300,
                 ),
               ),
               SizedBox(height: 20),
@@ -110,8 +110,8 @@ class KnotTying extends StatelessWidget {
               Center(
                 child: Image.asset(
                   'assets/clove_hitch.jpg', 
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 20),
@@ -153,8 +153,8 @@ class KnotTying extends StatelessWidget {
               Center(
                 child: Image.asset(
                   'assets/bowline.jpg',
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  width: 300, 
+                  height: 300,
                 ),
               ),
               SizedBox(height: 20),
@@ -196,8 +196,8 @@ class KnotTying extends StatelessWidget {
               Center(
                 child: Image.asset(
                   'assets/tautline_hitch.jpg',
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 20),
@@ -244,8 +244,8 @@ class KnotTying extends StatelessWidget {
               Center(
                 child: Image.asset(
                   'assets/trucker\'s_hitch.jpg',
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 30),

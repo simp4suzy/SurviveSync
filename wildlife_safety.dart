@@ -10,7 +10,7 @@ class WildLifeSafety extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/sur_background.jpg'), // Change the path to your image
+            image: AssetImage('assets/sur_background.jpg'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -51,9 +51,9 @@ class WildLifeSafety extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/binoculars_wild.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/binoculars_wild.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 20),
@@ -109,9 +109,9 @@ class WildLifeSafety extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/bear_spray.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/bear_spray.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -192,9 +192,9 @@ class WildLifeSafety extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/bear_proof.webp', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/bear_proof.webp', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -215,9 +215,9 @@ class WildLifeSafety extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/leave_no_trace.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/leave_no_trace.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),

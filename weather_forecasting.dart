@@ -10,7 +10,7 @@ class WeatherForecasting extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/sur_background.jpg'), // Change the path to your image
+            image: AssetImage('assets/sur_background.jpg'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -44,88 +44,92 @@ class WeatherForecasting extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/cumulus_cloud.jpg', // Left image
-                        width: 250, // Adjust width as needed
-                        height: 250, // Adjust height as needed
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/cumulus_cloud.jpg', 
+                      width: 250, 
+                      height: 250,
+                    ),
+                    SizedBox(height: 10), 
+                    Text(
+                      'Cumulus Clouds',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
                       ),
-                      SizedBox(height: 10), // Add space between image and text
-                      Text(
-                        'Cumulus Clouds',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/stratus_cloud.jpg', // Right image
-                        width: 250, // Adjust width as needed
-                        height: 250, // Adjust height as needed
-                        ),
-                        SizedBox(height: 10), // Add space between image and text
-                        Text(
-                        'Stratus Clouds',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
+                    ),
+                  ],
+                ),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/cirrus_cloud.webp', // Left image
-                        width: 250, // Adjust width as needed
-                        height: 250, // Adjust height as needed
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/stratus_cloud.jpg', 
+                      width: 250, 
+                      height: 250,
+                    ),
+                    SizedBox(height: 10), 
+                    Text(
+                      'Stratus Clouds',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
                       ),
-                      SizedBox(height: 10), // Add space between image and text
-                      Text(
-                        'Cirrus Clouds',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/cirrus_cloud.webp', 
+                      width: 250, 
+                      height: 250,
+                    ),
+                    SizedBox(height: 10), 
+                    Text(
+                      'Cirrus Clouds',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
                       ),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/nimbus_cloud.jpg', // Right image
-                        width: 250, // Adjust width as needed
-                        height: 250, // Adjust height as needed
-                        ),
-                        SizedBox(height: 10), // Add space between image and text
-                        Text(
-                        'Nimbus Clouds',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/nimbus_cloud.jpg', 
+                      width: 250, 
+                      height: 250,
+                    ),
+                    SizedBox(height: 10), 
+                    Text(
+                      'Nimbus Clouds',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
                       ),
-                    ],
-                  ),
-                ],
+                    ),
+                  ],
+                ),
               ),
               SizedBox(height: 20),
               Text(
@@ -163,27 +167,27 @@ class WeatherForecasting extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Image.asset(
-                    'assets/grass_wind.gif', // Left image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                  Image.asset(
-                    'assets/branches_wind.gif', // Right image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                ],
+              Center(
+                child: Image.asset(
+                  'assets/grass_wind.gif', 
+                  width: 300, 
+                  height: 300, 
+                ),
               ),
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/windsock.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/branches_wind.gif', 
+                  width: 300, 
+                  height: 300, 
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Image.asset(
+                  'assets/windsock.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -274,9 +278,9 @@ class WeatherForecasting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/barometer.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/barometer.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),

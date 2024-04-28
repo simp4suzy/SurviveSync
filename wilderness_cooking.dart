@@ -10,7 +10,7 @@ class WildernessCooking extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/sur_background.jpg'), // Change the path to your image
+            image: AssetImage('assets/sur_background.jpg'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -56,9 +56,9 @@ class WildernessCooking extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/campfire.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/campfire.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 20),
@@ -74,9 +74,9 @@ class WildernessCooking extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/direct_cooking.webp', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/direct_cooking.webp', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -87,9 +87,9 @@ class WildernessCooking extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/indirect_cooking.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/indirect_cooking.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 20),
@@ -128,20 +128,20 @@ class WildernessCooking extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Image.asset(
-                    'assets/backpacking_stove.jpeg', // Left image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                  Image.asset(
-                    'assets/camp_stove.jpg', // Right image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                ],
+              Center(
+                child: Image.asset(
+                  'assets/backpacking_stove.jpeg', 
+                  width: 300, 
+                  height: 300, 
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Image.asset(
+                  'assets/camp_stove.jpg', 
+                  width: 300, 
+                  height: 300, 
+                ),
               ),
               SizedBox(height: 10),
               Text(
@@ -161,9 +161,9 @@ class WildernessCooking extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/boiling.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/boiling.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -174,9 +174,9 @@ class WildernessCooking extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/simmering.webp', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/simmering.webp', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -187,9 +187,9 @@ class WildernessCooking extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/frying_pan.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/frying_pan.jpg', 
+                  width: 300,
+                  height: 300,
                 ),
               ),
               SizedBox(height: 20),

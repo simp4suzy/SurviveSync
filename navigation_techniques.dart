@@ -10,7 +10,7 @@ class NavigationTechniques extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/sur_background.jpg'), // Change the path to your image
+            image: AssetImage('assets/sur_background.jpg'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -46,9 +46,9 @@ class NavigationTechniques extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/compass_housing.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/compass_housing.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 20),
@@ -69,9 +69,9 @@ class NavigationTechniques extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/bearing.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/bearing.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -110,27 +110,27 @@ class NavigationTechniques extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Image.asset(
-                    'assets/interpret_topographic_maps.jpg', // Left image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                  Image.asset(
-                    'assets/interpret_topographic_symbols.jpg', // Right image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                ],
+              Center(
+                child: Image.asset(
+                  'assets/interpret_topographic_maps.jpg', 
+                  width: 300, 
+                  height: 300, 
+                ),
               ),
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/interpret_topographic_colors.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/interpret_topographic_symbols.jpg', 
+                  width: 300, 
+                  height: 300, 
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Image.asset(
+                  'assets/interpret_topographic_colors.jpg', 
+                  width: 300, 
+                  height: 300,
                 ),
               ),
               SizedBox(height: 10),

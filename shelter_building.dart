@@ -10,7 +10,7 @@ class ShelterBuilding extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/sur_background.jpg'), // Change the path to your image
+            image: AssetImage('assets/sur_background.jpg'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -46,9 +46,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/sturdy_branches.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/sturdy_branches.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -57,20 +57,20 @@ class ShelterBuilding extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Image.asset(
-                    'assets/small_branches.jpg', // Left image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                  Image.asset(
-                    'assets/leaves.jpg', // Right image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                ],
+              Center(
+                child: Image.asset(
+                  'assets/small_branches.jpg', 
+                  width: 300, 
+                  height: 300, 
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Image.asset(
+                  'assets/leaves.jpg', 
+                  width: 300, 
+                  height: 300, 
+                ),
               ),
               SizedBox(height: 10),
               Text(
@@ -78,20 +78,20 @@ class ShelterBuilding extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Image.asset(
-                    'assets/ropes.jpg', // Left image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                  Image.asset(
-                    'assets/vines.webp', // Right image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                ],
+              Center(
+                child: Image.asset(
+                  'assets/ropes.jpg', 
+                  width: 300, 
+                  height: 300, 
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Image.asset(
+                  'assets/vines.webp', 
+                  width: 300, 
+                  height: 300, 
+                ),
               ),
               SizedBox(height: 20),
               Text(
@@ -106,9 +106,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/long_branch.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/long_branch.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -119,9 +119,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/rope_lash_frame.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/rope_lash_frame.gif',
+                  width: 300, 
+                  height: 300,
                 ),
               ),
               SizedBox(height: 10),
@@ -132,9 +132,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/short_branch.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/short_branch.gif',
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -145,9 +145,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/leaves_insulation.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/leaves_insulation.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -158,9 +158,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/thick_layer.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/thick_layer.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 20),
@@ -181,9 +181,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/leanto_long_branch.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/leanto_long_branch.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -194,9 +194,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/leanto_short_branch.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/leanto_short_branch.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -205,20 +205,20 @@ class ShelterBuilding extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Image.asset(
-                    'assets/leanto_rocks.png', // Left image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                  Image.asset(
-                    'assets/leanto_logs.jpg', // Right image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                ],
+              Center(
+                child: Image.asset(
+                  'assets/leanto_rocks.png', 
+                  width: 300, 
+                  height: 300, 
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Image.asset(
+                  'assets/leanto_logs.jpg', 
+                  width: 300, 
+                  height: 300, 
+                ),
               ),
               SizedBox(height: 20),
               Text(
@@ -251,9 +251,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/leanto_short_ridgepole.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/leanto_short_ridgepole.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -264,9 +264,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/leanto_roof.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/leanto_roof.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -292,9 +292,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/aframe_two.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/aframe_two.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -305,9 +305,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/leanto_short_branch.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/leanto_short_branch.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -316,20 +316,20 @@ class ShelterBuilding extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Image.asset(
-                    'assets/leanto_rocks.png', // Left image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                  Image.asset(
-                    'assets/leanto_logs.jpg', // Right image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                ],
+              Center(
+                child: Image.asset(
+                  'assets/leanto_rocks.png', 
+                  width: 300, 
+                  height: 300, 
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Image.asset(
+                  'assets/leanto_logs.jpg', 
+                  width: 300, 
+                  height: 300, 
+                ),
               ),
               SizedBox(height: 20),
               Text(
@@ -344,9 +344,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/aframe_support.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/aframe_support.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -362,9 +362,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/aframe_short ridgepole.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/aframe_short ridgepole.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -375,9 +375,9 @@ class ShelterBuilding extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/aframe_roof.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/aframe_roof.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),

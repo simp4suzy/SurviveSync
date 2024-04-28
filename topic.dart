@@ -1,23 +1,24 @@
-import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:survival_manual/screens/Hunting.dart';
-import 'package:survival_manual/screens/about.dart';
-import 'package:survival_manual/screens/basic_tool_making.dart';
-import 'package:survival_manual/screens/faq_screen.dart';
-import 'package:survival_manual/screens/help_&_support.dart';
-import 'package:survival_manual/screens/knot_tying.dart';
-import 'package:survival_manual/screens/mental_preparedness.dart';
-import 'package:survival_manual/screens/navigation_techniques.dart';
-import 'package:survival_manual/screens/signaling_for_rescue.dart';
-import 'package:survival_manual/screens/trapping.dart';
-import 'package:survival_manual/screens/weather_forecasting.dart';
-import 'package:survival_manual/screens/wilderness_cooking.dart';
-import 'package:survival_manual/screens/wildlife_safety.dart';
+import 'package:SurviveSync/screens/Hunting.dart';
+import 'package:SurviveSync/screens/about.dart';
+import 'package:SurviveSync/screens/basic_tool_making.dart';
+import 'package:SurviveSync/screens/faq_screen.dart';
+import 'package:SurviveSync/screens/help_&_support.dart';
+import 'package:SurviveSync/screens/knot_tying.dart';
+import 'package:SurviveSync/screens/mental_preparedness.dart';
+import 'package:SurviveSync/screens/navigation_techniques.dart';
+import 'package:SurviveSync/screens/signaling_for_rescue.dart';
+import 'package:SurviveSync/screens/trapping.dart';
+import 'package:SurviveSync/screens/weather_forecasting.dart';
+import 'package:SurviveSync/screens/wilderness_cooking.dart';
+import 'package:SurviveSync/screens/wildlife_safety.dart';
+import 'package:flutter/services.dart';
 import 'fire_starting.dart';
 import 'shelter_building.dart';
 import 'first_aid.dart';
 import 'water_purification.dart';
 import 'edible_plants_and_foraging.dart';
+
 
 class TopicScreen extends StatefulWidget {
   @override
@@ -25,38 +26,6 @@ class TopicScreen extends StatefulWidget {
 }
 
 class _TopicScreenState extends State<TopicScreen> {
-  Future<bool?> _confirmExit(BuildContext context) async {
-    return showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: Text('Confirm Exit?'),
-          content: Text('Are you sure you want to exit?'),
-          actions: <Widget>[
-            TextButton(
-              onPressed: () => Navigator.of(context).pop(false),
-              child: Text('Cancel'),
-            ),
-            TextButton(
-              onPressed: () => Navigator.of(context).pop(true),
-              child: Text('Exit'),
-            ),
-          ],
-        );
-      },
-    );
-  }
-
-  void _exitApp() {
-    if (Platform.isAndroid || Platform.isIOS) {
-      // Use SystemNavigator to exit app
-      exit(0);
-    } else {
-      // For other platforms, you can handle exiting the app accordingly
-      // e.g., close the app normally
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -109,21 +78,40 @@ class _TopicScreenState extends State<TopicScreen> {
             ),
             ListTile(
               title: Text('Exit'),
-              onTap: () async {
-                bool? confirm = await _confirmExit(context);
-                if (confirm != null && confirm) {
-                  Navigator.of(context).pop();
-                }
+              onTap: () {
+                showDialog(
+                  context: context,
+                  builder: (BuildContext context) {
+                    return AlertDialog(
+                      title: Text('Confirm Exit'),
+                      content: Text('Are you sure you want to exit?'),
+                      actions: <Widget>[
+                        TextButton(
+                          child: Text('Cancel'),
+                          onPressed: () {
+                            Navigator.of(context).pop();
+                          },
+                        ),
+                        TextButton(
+                          child: Text('Exit'),
+                          onPressed: () {
+                            Navigator.of(context).pop();
+                            SystemNavigator.pop();
+                          },
+                        ),
+                      ],
+                    );
+                  },
+                );
               },
             ),
-            // Add more items as needed
           ],
         ),
       ),
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/sur_background.jpg'), // Change the path to your image
+            image: AssetImage('assets/sur_background.jpg'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -338,13 +326,11 @@ class TopicSearchDelegate extends SearchDelegate<String> {
 
   @override
   Widget buildResults(BuildContext context) {
-    // This method is not used in this implementation
     return Container();
   }
 
   List<String> _getFilteredItems(String query) {
     // Perform filtering logic here
-    // This is just a placeholder, you should replace it with your actual data source and filtering logic
     final List<String> allItems = [
       'Fire Starting',
       'Shelter Building',

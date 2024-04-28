@@ -10,7 +10,7 @@ class SignalingForRescue extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/sur_background.jpg'), // Change the path to your image
+            image: AssetImage('assets/sur_background.jpg'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -46,9 +46,9 @@ class SignalingForRescue extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/signal_fire.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/signal_fire.jpg', 
+                  width: 300, 
+                  height: 300,
                 ),
               ),
               SizedBox(height: 10),
@@ -72,22 +72,22 @@ class SignalingForRescue extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Image.asset(
-                    'assets/ground_to_air_signals.jpg', // Left image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                  Image.asset(
-                    'assets/require_assistance.jpg', // Right image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                ],
+              Center(
+                child: Image.asset(
+                  'assets/ground_to_air_signals.jpg', 
+                  width: 300, 
+                  height: 300,
+                ),
               ),
               SizedBox(height: 10),
+              Center(
+                child: Image.asset(
+                  'assets/require_assistance.jpg', 
+                  width: 300, 
+                  height: 300,
+                ),
+              ),
+              SizedBox(height: 20),
               Text(
                 '• Arrange rocks, branches, or other debris to form letters or symbols that spell out "SOS" or "HELP."',
                 style: TextStyle(fontSize: 16),
@@ -95,9 +95,9 @@ class SignalingForRescue extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/sos.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/sos.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -123,9 +123,9 @@ class SignalingForRescue extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/whistle.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/whistle.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -171,9 +171,9 @@ class SignalingForRescue extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/hold_mirror_eye.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/hold_mirror_eye.gif', 
+                  width: 300, 
+                  height: 300,
                 ),
               ),
               SizedBox(height: 10),
@@ -184,9 +184,9 @@ class SignalingForRescue extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/flash_mirror.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/flash_mirror.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 20),

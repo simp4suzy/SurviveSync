@@ -10,7 +10,7 @@ class FireStarting extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/sur_background.jpg'), // Change the path to your image
+            image: AssetImage('assets/sur_background.jpg'), 
             fit: BoxFit.cover,
           ),
         ),
@@ -23,15 +23,7 @@ class FireStarting extends StatelessWidget {
                 'Fire Starting',
                 style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
               ),
-              SizedBox(height: 10),
-              Center(
-                child: Image.asset(
-                  'assets/fire_starting_intro.gif', // GIF before the introduction
-                  width: 700, // Change the width as needed
-                  height: 700, // Change the height as needed
-                ),
-              ),
-              SizedBox(height: 10),
+              SizedBox(height: 20),
               Text(
                 'Fire starting is the essential skill of igniting and maintaining a fire, typically for warmth, cooking, signaling, or other survival purposes. Mastering fire starting techniques is crucial for outdoor enthusiasts, adventurers, and anyone who may find themselves in emergency situations where the ability to create fire is necessary for survival.',
                 style: TextStyle(fontSize: 16),
@@ -52,20 +44,20 @@ class FireStarting extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Image.asset(
-                    'assets/straight_stick.jpg', // Left image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                  Image.asset(
-                    'assets/flat_wood.jpg', // Right image
-                    width: 300, // Adjust width as needed
-                    height: 300, // Adjust height as needed
-                  ),
-                ],
+              Center(
+                child: Image.asset(
+                  'assets/straight_stick.jpg', 
+                  width: 300, 
+                  height: 300, 
+                ),
+              ),
+              SizedBox(height: 10),
+              Center(
+                child: Image.asset(
+                  'assets/flat_wood.jpg', 
+                  width: 300, 
+                  height: 300, 
+                ),
               ),
               SizedBox(height: 10),
               Text(
@@ -75,9 +67,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/bow.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/bow.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -88,9 +80,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/tinder.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/tinder.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -101,12 +93,12 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/spin_the_drill.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/spin_the_drill.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
-              SizedBox(height: 10),
+              SizedBox(height: 20),
               Text(
                 '• Transfer the ember to the tinder bundle and gently blow to ignite.',
                 style: TextStyle(fontSize: 16),
@@ -114,9 +106,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/transfer_ember.webp', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/transfer_ember.webp', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 20),
@@ -132,9 +124,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/stick_wood.webp', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/stick_wood.webp', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -145,9 +137,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/tinder.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/tinder.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -158,9 +150,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/hand_drill.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/hand_drill.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -171,9 +163,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/ember_forms.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/ember_forms.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 20),
@@ -189,12 +181,12 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/flint_and_steel.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/flint_and_steel.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
-              SizedBox(height: 10),
+              SizedBox(height: 20),
               Text(
                 '• Strike the steel against the flint at an angle, directing the sparks onto a piece of char cloth or tinder fungus.',
                 style: TextStyle(fontSize: 16),
@@ -207,9 +199,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/strike_the_steel.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/strike_the_steel.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 20),
@@ -225,9 +217,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/water_bottle.png', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/water_bottle.png', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -238,9 +230,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/create_lens.png', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/create_lens.png', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -256,9 +248,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/solar_ignition.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/solar_ignition.gif', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 20),
@@ -274,9 +266,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/tinder_kindling_fuelwood.jpeg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/tinder_kindling_fuelwood.jpeg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -287,9 +279,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/fire_lay.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/fire_lay.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
               SizedBox(height: 10),
@@ -300,12 +292,12 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/windbreak.jpg', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/windbreak.jpg', 
+                  width: 300, 
+                  height: 300, 
                 ),
               ),
-              SizedBox(height: 10),
+              SizedBox(height: 20),
               Text(
                 '• Keep a ready supply of tinder and kindling nearby to add to the fire as needed.',
                 style: TextStyle(fontSize: 16),
@@ -318,9 +310,9 @@ class FireStarting extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Image.asset(
-                  'assets/fire_starting_last.gif', // GIF before the introduction
-                  width: 300, // Change the width as needed
-                  height: 300, // Change the height as needed
+                  'assets/fire_starting_last.gif', 
+                  width: 300, 
+                  height: 300,
                 ),
               ),
               SizedBox(height: 30),

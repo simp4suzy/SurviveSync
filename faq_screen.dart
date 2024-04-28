@@ -5,7 +5,7 @@ class FAQScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('FAQ (Frequently Asked Questions)'),
+        title: Text('FAQ'),
       ),
       body: Container(
         decoration: BoxDecoration(
