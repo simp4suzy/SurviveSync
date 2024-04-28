@@ -42,7 +42,7 @@ class AboutScreen extends StatelessWidget {
                             Icon(Icons.info, color: Colors.black),
                             SizedBox(width: 5),
                             Text(
-                              'Version: 2.2.19',
+                              'Version: 1.0.0',
                               style: TextStyle(
                                 fontSize: 13.0,
                                 color: Colors.black,
