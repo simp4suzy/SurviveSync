@@ -1,7 +1,7 @@
 // splash.dart
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:survival_manual/screens/home.dart';
+import 'package:SurviveSync/screens/home.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
